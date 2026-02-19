@@ -5,7 +5,7 @@ Content-Type: application/json
     "name": "Algum serviço 2",
     "description": "Alguma descrição",
     "price": 1600,
-    "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+    "image": "https://faro.edu.br/wp-content/uploads/2018/09/229307-x-dicas-para-economizar-durante-a-faculdade-para-a-festa-de-formatura.jpg"
 }
 
 ###
@@ -25,7 +25,7 @@ Content-Type: application/json
     "name": "TESTE ATUALIZAÇÃO",
     "description": "Alguma descrição",
     "price": 2500,
-    "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+    "image": "https://faro.edu.br/wp-content/uploads/2018/09/229307-x-dicas-para-economizar-durante-a-faculdade-para-a-festa-de-formatura.jpg"
 }
 
 ###
@@ -37,19 +37,19 @@ Content-Type: application/json
     "author": "Endryus",
     "description": "Uma festa de aniversário",
     "budget": 9000,
-    "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg",
+    "image": "https://faro.edu.br/wp-content/uploads/2018/09/229307-x-dicas-para-economizar-durante-a-faculdade-para-a-festa-de-formatura.jpg",
     "services": [
         {
             "name": "Algum serviço 1",
             "description": "Alguma descrição",
             "price": 3000,
-            "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+            "image": "https://faro.edu.br/wp-content/uploads/2018/09/229307-x-dicas-para-economizar-durante-a-faculdade-para-a-festa-de-formatura.jpg"
         },
         {
             "name": "Algum serviço 2",
             "description": "Alguma descrição",
             "price": 1600,
-            "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+            "image": "https://faro.edu.br/wp-content/uploads/2018/09/229307-x-dicas-para-economizar-durante-a-faculdade-para-a-festa-de-formatura.jpg"
         }
     ]
 }
@@ -61,7 +61,7 @@ GET http://localhost:3000/api/parties
 GET http://localhost:3000/api/parties/69975f2476111c717cc5bada
 
 ###
-DELETE http://localhost:3000/api/parties/69975e9f76111c717cc5bad8
+DELETE http://localhost:3000/api/parties/699791d94bc451e78cc38c6b
 
 ###
 PUT http://localhost:3000/api/parties/69975f2476111c717cc5bada
@@ -72,19 +72,19 @@ Content-Type: application/json
     "author": "Endryus",
     "description": "Uma festa de aniversário",
     "budget": 10000,
-    "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg",
+    "image": "https://alphaconvites.com.br/wp-content/uploads/2023/01/festa-antes-formatura-scaled-1.jpg",
     "services": [
         {
             "name": "Algum serviço 1",
             "description": "Alguma descrição",
             "price": 3000,
-            "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+            "image": "https://faro.edu.br/wp-content/uploads/2018/09/229307-x-dicas-para-economizar-durante-a-faculdade-para-a-festa-de-formatura.jpg"
         },
         {
             "name": "Algum serviço 2",
             "description": "Alguma descrição",
             "price": 1600,
-            "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+            "image": "https://faro.edu.br/wp-content/uploads/2018/09/229307-x-dicas-para-economizar-durante-a-faculdade-para-a-festa-de-formatura.jpg"
         }
     ]
 }
