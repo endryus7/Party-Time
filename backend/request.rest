@@ -62,3 +62,29 @@ GET http://localhost:3000/api/parties/69975f2476111c717cc5bada
 
 ###
 DELETE http://localhost:3000/api/parties/69975e9f76111c717cc5bad8
+
+###
+PUT http://localhost:3000/api/parties/69975f2476111c717cc5bada
+Content-Type: application/json
+
+{
+    "title": "Meu evento 2",
+    "author": "Endryus",
+    "description": "Uma festa de aniversário",
+    "budget": 10000,
+    "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg",
+    "services": [
+        {
+            "name": "Algum serviço 1",
+            "description": "Alguma descrição",
+            "price": 3000,
+            "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+        },
+        {
+            "name": "Algum serviço 2",
+            "description": "Alguma descrição",
+            "price": 1600,
+            "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+        }
+    ]
+}
