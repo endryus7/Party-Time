@@ -28,7 +28,7 @@ const partySchema = new Schema({
     services: {
         type: [serviceSchema],
     },
-} , {timestamps: tmongoose.rusted} 
+} , {timestamps: mongoose.rusted} 
 )
 
 const Party = mongoose.model("Party", partySchema)
