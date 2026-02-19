@@ -16,3 +16,14 @@ GET http://localhost:3000/api/services/6996815b49cce5b3d0bf02dd
 
 ###
 DELETE http://localhost:3000/api/services/6996815b49cce5b3d0bf02dd
+
+###
+PUT http://localhost:3000/api/services/6996835bc807f2e63d39dc09
+Content-Type: application/json
+
+{
+    "name": "TESTE ATUALIZAÇÃO",
+    "description": "Alguma descrição",
+    "price": 2500,
+    "image": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+}
