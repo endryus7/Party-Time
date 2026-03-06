@@ -20,4 +20,8 @@ app.listen(3000, function() {
     console.log("Servidor Online!")
 })
 
+app.get("/", (req, res) => {
+  res.json({ message: "Party Time API funcionando 🚀" });
+});
+
 // 189.30.234.223
