@@ -1,16 +1,29 @@
 # 🎉 Party Time
 
-Aplicação web desenvolvida em React para criação e gerenciamento de festas.  
-O usuário pode cadastrar eventos e visualizar as informações de cada festa de forma simples e organizada.
+Aplicação web **Full Stack** desenvolvida com React e Node.js para criação e gerenciamento de festas.
+
+O usuário pode cadastrar eventos, visualizar as festas criadas e acessar os detalhes de cada festa de forma simples e organizada.
 
 ## 🚀 Tecnologias
 
-- React
-- JavaScript
-- HTML5
-- CSS3
+# Frontend
 
-## 🔗 Demo
+* React
+* JavaScript
+* HTML5
+* CSS3
+* Axios
 
-Acesse o projeto online:  
+# Backend
+
+* Node.js
+* Express
+
+# Banco de dados
+
+* MongoDB
+
+# 🔗 Demo
+
+Acesse o projeto online:
 https://party-time-inky.vercel.app
