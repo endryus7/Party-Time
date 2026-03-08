@@ -6,7 +6,7 @@ O usuário pode cadastrar eventos, visualizar as festas criadas e acessar os det
 
 ## 🚀 Tecnologias
 
-# Frontend
+### Frontend
 
 * React
 * JavaScript
@@ -14,16 +14,16 @@ O usuário pode cadastrar eventos, visualizar as festas criadas e acessar os det
 * CSS3
 * Axios
 
-# Backend
+### Backend
 
 * Node.js
 * Express
 
-# Banco de dados
+### Banco de dados
 
 * MongoDB
 
-# 🔗 Demo
+## 🔗 Demo
 
 Acesse o projeto online:
 https://party-time-inky.vercel.app
