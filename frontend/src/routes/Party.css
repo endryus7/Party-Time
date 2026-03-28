@@ -1,14 +1,106 @@
-.party h1,
-.party h3,
-.party p {
-    text-align: center;
-    margin-bottom: 1rem;
+.party-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
 }
 
-.actions-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
+.party-hero {
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  position: relative;
+  height: 340px;
+}
+
+.party-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.party-hero-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.party-hero-overlay h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+
+.party-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.party-info-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #f0e8ff;
+}
+
+.party-info-card h3 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #a855f7;
+  margin-bottom: 0.4rem;
+}
+
+.party-info-card p {
+  font-size: 1rem;
+  color: #1e0a3c;
+  font-weight: 500;
+}
+
+.party-info-card .budget-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #7703fc, #a855f7);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.party-services-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e0a3c;
+  margin-bottom: 1rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #f0e8ff;
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.service-card p {
+  padding: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1e0a3c;
 }

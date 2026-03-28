@@ -40,12 +40,10 @@ p {
   font-weight: 700;
   font-size: 0.9rem;
   display: inline-block;
-  box-shadow: 0 4px 14px rgba(119, 3, 252, 0.3);
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(119, 3, 252, 0.45);
 }
 
 .btn-secondary {
