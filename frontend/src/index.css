@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato";
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 body {
-  background-color: #f5f6fa;
+  background-color: #f0eefe;
+  min-height: 100vh;
 }
 
 ul {
@@ -17,33 +20,48 @@ ul {
 }
 
 a {
-  color: #283252;
+  color: #3d1d8f;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 p {
-  color: #747990;
+  color: #6b7280;
 }
 
-
-.btn, 
-.btn-secondary {
-  background-color: #7703fc;
+.btn {
+  background: linear-gradient(135deg, #7703fc, #a855f7);
   color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  transition: 0.4s;
+  padding: 0.55rem 1.3rem;
+  border-radius: 10px;
+  transition: all 0.3s;
   cursor: pointer;
-  display: block;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: inline-block;
+  box-shadow: 0 4px 14px rgba(119, 3, 252, 0.3);
 }
 
 .btn:hover {
-  opacity: 0.8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(119, 3, 252, 0.45);
 }
 
 .btn-secondary {
   background-color: #fff;
-  color: #283252;
-  border: 1px solid #cfcfcf;
+  color: #3d1d8f;
+  padding: 0.55rem 1.3rem;
+  border-radius: 10px;
+  border: 2px solid #e0d4fd;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background-color: #f5f0ff;
+  border-color: #a855f7;
 }
