@@ -103,11 +103,6 @@
   text-align: center;
 }
 
-.service:hover {
-  border-color: #a855f7;
-  box-shadow: 0 4px 16px rgba(119, 3, 252, 0.12);
-}
-
 .service.selected {
   border-color: #7703fc;
   background: #f5f0ff;
