@@ -11,6 +11,11 @@ const conn = require("./db/conn")
 
 conn()
 
+// Health check — usado pelo keep-alive para evitar demora no start
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok", timestamp: new Date().toISOString() })
+})
+
 // rota principal
 app.get("/", (req, res) => {
   res.json({ message: "Party Time API funcionando 🚀" });
