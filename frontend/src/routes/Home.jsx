@@ -15,40 +15,42 @@ const Home = () => {
     loadParties();
   }, []);
 
-  if (!parties) return (
-    <div className="home">
-      <div className="empty-state">
-        <span>⏳</span>
-        <p>Carregando suas festas...</p>
-      </div>
-    </div>
-  );
+  if (!parties) return null;
 
   return (
-    <div className="home">
-      <div className="home-header">
-        <h1>Suas <span>Festas</span></h1>
-        <p>Organize e gerencie todos os seus eventos em um só lugar</p>
-      </div>
+  <div className="home">
+    <div className="home-header">
+      <h1>Suas <span>Festas</span></h1>
+      <p>Organize e gerencie todos os seus eventos em um só lugar</p>
+    </div>
 
-        <div className="parties-container">
-          {parties.map((party) => (
-            <div className="party-card" key={party._id}>
-              <div className="party-card-image">
-                <img src={party.image} alt={party.title} />
-              </div>
-              <div className="party-card-body">
-                <h3>{party.title}</h3>
-                <div className="party-card-footer">
-                  <Link to={`/party/${party._id}`} className="btn-secondary">
-                    Ver detalhes →
-                  </Link>
-                </div>
+    {parties.length === 0 ? (
+      <div className="empty-state">
+        <div className="empty-icon">🎈</div>
+        <h3>Nenhuma festa ainda</h3>
+        <p>Que tal criar sua primeira festa agora?</p>
+        <Link to="/party/new" className="btn">+ Criar festa</Link>
+      </div>
+    ) : (
+      <div className="parties-container">
+        {parties.map((party) => (
+          <div className="party-card" key={party._id}>
+            <div className="party-card-image">
+              <img src={party.image} alt={party.title} />
+            </div>
+            <div className="party-card-body">
+              <h3>{party.title}</h3>
+              <div className="party-card-footer">
+                <Link to={`/party/${party._id}`} className="btn-secondary">
+                  Ver detalhes →
+                </Link>
               </div>
             </div>
-          ))}
-        </div>
-    </div>
+          </div>
+        ))}
+      </div>
+    )}
+  </div>
   );
 };
 
